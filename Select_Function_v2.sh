@@ -6,78 +6,105 @@ function suma { # Ejemplo 1 si n return
   #statements
   let num3=$num1+$num2
 
-  echo "La suma de tus numeros es $num3"
+  # return $sum3
 }
 
 function resta { # Elemplo 2 con return
   #statements
-  local num3=$(( $num1-$num2 )) #Local solo esta activo dentro de la function
+  let num3=$num1-$num2  #Local solo esta activo dentro de la function
 
-  return $num3 #se necesita el return para devolver el valor
+
 }
 
 function multi {
   #statements
   let num3=$num1*$num2
 
-  return $num3 # Tambien podemos user el return sin necesidad de que la variable sea local
 
 }
 
-function numeros{
+
+function numeros {
   #statements
-  echo "Introduce el Primer numero"
-
+  echo "Introduce el numero 1"
   read num1
-
-  echo "Introduce el Segundo numero "
-
+  echo "Introduce el numero 2"
   read num2
 
+  # return $num1, $num2
 }
 
 switch=0
 final=1
 
-while [ $switch -eq $final ]; do
+while [ $switch -lt $final ]; do
 
 
 
     #echo "Calculador"
-    echo "Selecciona Suma, Resta, Multiplicacion, Salir"
+    echo "Selecciona 1.Suma, 2.Resta, 3.Multiplicacion, 4.Salir"
 
     read opc
 
     case $opc in
 
-      Suma)
+      1)
 
-      numero
+      echo "Sumas"
+
+      numeros
 
       suma
 
+      echo
       echo "El resultado de la suma es $num3"
+      echo
+      echo "Pulsa una tecla"
 
-      Resta)
+      read
 
-      numero
+      clear;;
+
+      2)
+
+      echo "Resta"
+
+      numeros
 
       resta
 
+      echo
       echo "El resultado de la resta es $num3"
+      echo
+      echo "Pulsa una tecla"
 
-      Multiplicacion)
+      read
 
-      numero
+      clear;;
+
+      3)
+
+      echo "Multiplica"
+
+      numeros
 
       multi
 
-      echo "El resultado de la multiplicacion es $sum3"
+      echo
+      echo "El resultado de la multiplicacion es $num3"
+      echo
+      echo "Pulsa una tecla"
 
-      Salir)
+      read
+
+      clear;;
+
+      4)
 
       echo "Fin de programa"
 
-      let $switch=1
+      let switch=1;;
+
+    esac
 
 done
