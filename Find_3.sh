@@ -24,7 +24,7 @@ function listar {
 
 function Listar_Permisos {
   #statements
-  
+  ls -lart
 
 }
 
@@ -56,7 +56,15 @@ while [[ $switch -lt $final ]]; do
 
     2)
 
-    echo "Pendiente";;
+    echo "Listado Permisos Ficheros"
+
+    Listar_Permisos
+
+    echo
+    echo "Pulsa una tecla"
+
+    read;;
+
 
     3)
 
