@@ -7,7 +7,7 @@ destino=/c/Librerias_Java/Bash/destino
 
 # Nos movenmos hasta el directorio de ORIGEN
 
-cd $origen
+source $origen
 
 ls -lart
 
@@ -22,7 +22,7 @@ echo "Copiando $opcion..."
 #copiamos el archivo con cp
 cp $opcion $destino
 
-cd $destino
+source cd $destino
 
 echo "Contenido del Directorio $destino"
 
