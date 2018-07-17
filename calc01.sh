@@ -50,7 +50,7 @@ comprobarQueNoEsNumero $3
 case $2 in
     +|sum|mas)   sh suma.sh       $1 $3 ;;
     -|res|menos) sh resta.sh    $1 $3 ;;
-    x|mul|por)   ./multiplica $1 $3 ;;
-    /|div|entre) ./division   $1 $3 ;;
+    x|mul|por)   sh multiplica.sh $1 $3 ;;
+    /|div|entre) sh division.sh   $1 $3 ;;
     *) echo "La operación '$2' es inválida." ; ayuda ; exit 3 ;;
 esac
