@@ -5,7 +5,7 @@
 # función de ayuda
 function ayuda() {
 
-cat << DESCRPCION_AYUDA
+cat << DESCRIPCION_AYUDA
 SYNOPSIS
 	$0 NUMERO_1 NUMERO_2
 DESCRIPCIÓN
@@ -13,7 +13,7 @@ DESCRIPCIÓN
 CÓDIGOS DE RETORNO
 	1 Si el número de parámetros es distinto de 2
 	2 Si algún parámetro no es un número
-DESCRPCION_AYUDA
+DESCRIPCION_AYUDA
 
 }
 

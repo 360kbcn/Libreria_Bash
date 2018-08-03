@@ -1,5 +1,71 @@
-
-Poco después se encuentra con el otro prisionero, el abate Faria, que en su intento de escapar, cavó en dirección equivocada y llegó a la celda de Edmond, 
-con quien forma una muy buena amistad, llegándolo a considerar como su hijo. Faria se convierte en su instructor en varios temas, desde la historia, las matemáticas, 
-el lenguaje, filosofía, idiomas, y química, mientras ya juntos, cavan hacia otro lado de la celda, intentado escapar del castillo. Como resultado de sus conversaciones con Faria, 
-Dantés empieza a juntar las piezas de la historia que lo condenó a su penuria actual. 
+total 457
+-rwxr-xr-x 1 3004729 1049089     67 jul 31 14:19 awk1.sh
+-rwxr-xr-x 1 3004729 1049089     74 jul 31 14:22 awk2.sh
+-rwxr-xr-x 1 3004729 1049089    348 jul  9 11:35 Break.sh
+-rwxr-xr-x 1 3004729 1049089     64 jul  2 11:38 Bucle_for.sh
+-rwxr-xr-x 1 3004729 1049089   1268 jul 17 15:16 calc01.sh
+-rwxr-xr-x 1 3004729 1049089    301 jul  9 14:51 cambio_dia.sh
+-rwxr-xr-x 1 3004729 1049089    291 jul  3 11:25 Case_1.sh
+-rwxr-xr-x 1 3004729 1049089    244 jul  3 12:28 Case_2.sh
+-rwxr-xr-x 1 3004729 1049089    244 jul  6 13:35 Case_kk.sh
+drwxr-xr-x 1 3004729 1049089      0 jul  9 14:12 config
+-rwxr-xr-x 1 3004729 1049089    280 jul  2 10:54 continue.sh
+-rwxr-xr-x 1 3004729 1049089    364 jul 16 12:27 Conver_Fecha.sh
+-rwxr-xr-x 1 3004729 1049089    923 jul  9 11:59 Copiar_Entre_Directorios.sh
+-rw-r--r-- 1 3004729 1049089   2094 jul  6 14:02 Dantes.bak
+-rw-r--r-- 1 3004729 1049089   2103 jul 17 14:15 dantes.txt
+-rwxr-xr-x 1 3004729 1049089    128 jul 17 13:54 date.sh
+-rwxr-xr-x 1 3004729 1049089    393 jul 31 12:40 db_sql.sh
+drwxr-xr-x 1 3004729 1049089      0 jul  3 14:25 destino
+-rw-r--r-- 1 3004729 1049089      0 jul 17 15:15 division
+-rwxr-xr-x 1 3004729 1049089    757 jul 17 15:15 division.sh
+-rw-r--r-- 1 3004729 1049089    711 jul  3 14:22 ejemplo_cp.sh
+drwxr-xr-x 1 3004729 1049089      0 jul 31 14:09 etc
+-rwxr-xr-x 1 3004729 1049089    155 jul  5 13:09 Find_1.sh
+-rwxr-xr-x 1 3004729 1049089    103 jul  5 14:18 Find_2.sh
+-rwxr-xr-x 1 3004729 1049089    236 jul  3 11:10 For_1.sh
+-rwxr-xr-x 1 3004729 1049089    292 jul  2 13:29 Funcion_1.sh
+-rwxr-xr-x 1 3004729 1049089    153 jul  4 14:52 Funcion_2.sh
+-rwxr-xr-x 1 3004729 1049089    148 jul  4 14:54 Funcion_3.sh
+-rwxr-xr-x 1 3004729 1049089     65 jul 10 14:05 Funcion_Variable.sh
+-rwxr-xr-x 1 3004729 1049089    173 jul  9 13:00 Funciones_Dia.sh
+-rwxr-xr-x 1 3004729 1049089    183 jul 10 11:57 Funcions.sh
+-rwxr-xr-x 1 3004729 1049089   1457 jul 10 11:46 grep_1.sh
+-rwxr-xr-x 1 3004729 1049089     46 jul 10 11:50 grep_2.sh
+-rwxr-xr-x 1 3004729 1049089    105 jul  2 11:46 Hola_Mundo.sh
+-rwxr-xr-x 1 3004729 1049089    972 jul 17 14:02 hola_mundo_con_ayuda.sh
+-rwxr-xr-x 1 3004729 1049089     98 jul 17 13:59 hola_Mundo_Con_Parametros.sh
+-rwxr-xr-x 1 3004729 1049089    271 jul  3 11:00 If_1.sh
+-rwxr-xr-x 1 3004729 1049089    403 jul  3 10:09 If_2.sh
+-rwxr-xr-x 1 3004729 1049089    289 jul  3 10:45 If_3.sh
+-rw-r--r-- 1 3004729 1049089     15 jul  6 13:31 kk.bat
+-rwxr-xr-x 1 3004729 1049089    408 jul  6 13:35 kk.sh
+-rwxr-xr-x 1 3004729 1049089     84 jul  4 08:34 libreria.sh
+-rwxr-xr-x 1 3004729 1049089     48 jul  2 11:29 ls_bucle_for.sh
+-rwxr-xr-x 1 3004729 1049089     10 jul  2 10:42 Master.sh
+-rwxr-xr-x 1 3004729 1049089    768 jul 17 15:14 multiplica.sh
+drwxr-xr-x 1 3004729 1049089      0 jul  3 12:39 origen
+-rwxr-xr-x 1 3004729 1049089   2423 jul  6 12:35 permisos.sh
+-rwxr-xr-x 1 3004729 1049089     88 jul 11 10:37 Pintar_Funcion_Variable.sh
+-rw-r--r-- 1 3004729 1049089      0 jul 10 08:43 prova.txt
+-rw-r--r-- 1 3004729 1049089      0 jul 31 14:22 prue.txt
+-rwxr-xr-x 1 3004729 1049089    753 jul 17 15:11 resta.sh
+-rwxr-xr-x 1 3004729 1049089     99 jul  9 12:08 ruta_libreria.sh
+-rwxr-xr-x 1 3004729 1049089   6466 jul 10 12:01 sabado.sh
+-rwxr-xr-x 1 3004729 1049089    235 jul  3 12:15 Select_1.sh
+-rwxr-xr-x 1 3004729 1049089    143 jul  3 14:48 Select_2.sh
+-rwxr-xr-x 1 3004729 1049089    259 jul  4 15:01 Select_3.sh
+-rwxr-xr-x 1 3004729 1049089   1328 jul  5 08:50 Select_Function_v1.sh
+-rwxr-xr-x 1 3004729 1049089   1388 jul  5 12:39 Select_Function_v2.sh
+-rwxr-xr-x 1 3004729 1049089    346 jul  9 14:58 sqlprueba.sh
+-rwxr-xr-x 1 3004729 1049089    751 jul 17 15:05 suma.sh
+-rwxr-xr-x 1 3004729 1049089    107 jul  3 11:21 Until_1.sh
+-rwxr-xr-x 1 3004729 1049089    730 jul 17 14:25 usuarios_conectados.sh
+-rw-r--r-- 1 3004729 1049089      0 jul 17 14:24 usuarios_conectados.sj
+-rwxr-xr-x 1 3004729 1049089    751 jul 17 14:28 usuariosystema.sh
+-rwxr-xr-x 1 3004729 1049089    123 jul  2 11:48 Variables_1.sh
+-rwxr-xr-x 1 3004729 1049089     71 jul  2 11:50 Variables_2.sh
+-rwxr-xr-x 1 3004729 1049089    386 jul  2 12:31 Variables_3.sh
+-rwxr-xr-x 1 3004729 1049089     96 jul  2 12:31 Variables_4.sh
+-rwxr-xr-x 1 3004729 1049089    109 jul  3 11:15 While_1.sh
+-rwxr-xr-x 1 3004729 1049089    327 jul  3 12:26 While_Case_1.sh
